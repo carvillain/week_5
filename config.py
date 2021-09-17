@@ -16,5 +16,5 @@ class Config():
     """
 
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'You will never guess'
-    SQLALCHEMY_DATABASE_URI = 'postgresql://postgres:99013Pog@127.0.0.1:5432/car-collection'
+    SQLALCHEMY_DATABASE_URI = 'postgresql://pkqgrvbvfnnceh:dd9e213fd206011cf6976c16a84ce9ae555434b73d5665fcdddb8c8a3c316c31@ec2-54-81-126-150.compute-1.amazonaws.com:5432/da1qlfgvql5rpe'
     SQLALCHEMY_TRACK_MODIFICATIONS = False # Turn off Update Messages from the sqlalchemy
